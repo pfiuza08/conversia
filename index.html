@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ConversIA | Seu atendente inteligente 24/7</title>
+  <meta name="description" content="O ConversIA responde clientes automaticamente no WhatsApp, Instagram e site. Atenda mais rápido, converta mais e não perca nenhum lead. Demonstração gratuita em 2 minutos.">
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ConversIA | Seu atendente inteligente 24/7">
+  <meta property="og:description" content="Responda clientes automaticamente no WhatsApp, Instagram e site. Demonstração gratuita.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://conversia.intellih.com.br/">
+  <meta property="og:image" content="/assets/hero-bg.jpg">
+
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="preload" as="image" href="/assets/hero-bg.jpg">
+  <link rel="stylesheet" href="/style.css" />
+
+  <!-- GTM (opcional): substitua GTM-XXXXXXX e remova comentários se quiser usar -->
+  <!--
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-XXXXXXX');
+  </script>
+  -->
+
+  <!-- Meta Pixel + eventos custom (PageView, TimeOnPage10s, Lead) -->
+  <script defer src="/scripts/pixel.js"></script>
+</head>
+<body>
+  <!-- GTM noscript (opcional) -->
+  <!--
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  -->
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="/assets/logo-intellih.svg" alt="Intellih" class="logo">
+        <span class="divider"></span>
+        <strong class="product">ConversIA</strong>
+      </div>
+      <nav class="nav">
+        <a href="#beneficios">Benefícios</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#demo">Demonstração</a>
+        <a class="btn btn-sm" href="#cta" data-track="NavCTA">Começar agora</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1>Seu atendente inteligente <span class="accent">24/7</span></h1>
+          <p class="sub">
+            O <strong>ConversIA</strong> responde seus clientes automaticamente no
+            <u>WhatsApp</u>, <u>Instagram</u> e no seu <u>site</u> — com tom humano, rapidez e foco em conversão.
+          </p>
+          <div class="hero-ctas">
+            <a id="cta-hero" class="btn btn-lg" href="#" data-track="HeroCTA">Testar agora</a>
+            <a class="btn btn-ghost" href="#demo">Ver demonstração</a>
+          </div>
+          <ul class="bullets">
+            <li>Atendimento instantâneo e humanizado</li>
+            <li>Qualifica leads e envia o próximo passo (link, agenda, pagamento)</li>
+            <li>Registra tudo no Google Sheets / CRM</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <div class="chat-window" aria-label="Demonstração do chat ConversIA">
+            <div class="chat-header">
+              <span class="dot online"></span> ConversIA • Demo
+            </div>
+            <div id="chat-body" class="chat-body">
+              <!-- mensagens adicionadas via JS -->
+            </div>
+            <div class="chat-input">
+              <input id="demo-input" type="text" placeholder="Escreva aqui…">
+              <button id="demo-send" class="btn btn-send" aria-label="Enviar">➤</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="hero-bg" src="/assets/hero-bg.jpg" alt="" aria-hidden="true" loading="lazy">
+    </section>
+
+    <!-- BENEFÍCIOS -->
+    <section id="beneficios" class="section">
+      <div class="container cards-grid">
+        <article class="card">
+          <h3>Respostas que convertem</h3>
+          <p>Scripts prontos e personalizados com CTA para sua realidade. Copy testada e ajustável.</p>
+        </article>
+        <article class="card">
+          <h3>Integra com seu fluxo</h3>
+          <p>WhatsApp, Instagram, site, planilhas e CRM. Envia links de pagamento e agenda.</p>
+        </article>
+        <article class="card">
+          <h3>Métricas & Pixel</h3>
+          <p>PageView, TimeOnPage10s e Lead para otimizar anúncios e turbinar suas campanhas.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA -->
+    <section id="como-funciona" class="section alt">
+      <div class="container steps">
+        <h2>Como funciona</h2>
+        <ol>
+          <li><strong>Configuração rápida:</strong> definimos saudação, perguntas e CTAs.</li>
+          <li><strong>Integração:</strong> conectamos WhatsApp/Instagram/site e planilha/CRM.</li>
+          <li><strong>Rodando em 24h:</strong> você já começa a atender, registrar e converter.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- DEMO -->
+    <section id="demo" class="section">
+      <div class="container demo">
+        <h2>Demonstração rápida</h2>
+        <p>Interaja com a janela ao lado ou clique para testar no WhatsApp.</p>
+        <a id="cta-demo" class="btn" href="#" data-track="DemoCTA">Quero testar no WhatsApp</a>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section id="cta" class="section cta">
+      <div class="container cta-inner">
+        <div>
+          <h2>Pronto para não perder mais nenhum lead?</h2>
+          <p>Ative o ConversIA hoje e veja a diferença já na primeira semana.</p>
+        </div>
+        <div class="cta-actions">
+          <a id="cta-final" class="btn btn-lg" href="#" data-track="FooterCTA">Começar agora</a>
+          <small class="muted">Demonstração gratuita • Sem cartão</small>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span id="y"></span> Intellih Tecnologia — ConversIA</span>
+      <a href="#" aria-label="Política de Privacidade">Privacidade</a>
+      <a href="#" aria-label="Termos de Uso">Termos</a>
+    </div>
+  </footer>
+
+  <script>
+    // ---------- CONFIGURAÇÕES RÁPIDAS ----------
+    // 1) Substitua pelo seu número do WhatsApp no formato internacional: 55DDNUMERO (sem + nem espaços)
+    const WHATSAPP_NUMBER = "55XXXXXXXXXXX"; // ex: 5521999999999
+    // 2) Mensagem padrão do WhatsApp
+    const WHATSAPP_MESSAGE = "Oi! Quero testar o ConversIA no meu negócio.";
+    // 3) Link do WhatsApp com mensagem
+    const waLink = () => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+
+    // ---------- CTA handlers + evento Lead ----------
+    function openWAAndTrack(source) {
+      try {
+        if (window.fbq) fbq('track', 'Lead', {source});
+      } catch(e) {}
+      window.location.href = waLink();
+    }
+
+    document.getElementById('cta-hero').addEventListener('click', (e) => {
+      e.preventDefault(); openWAAndTrack('Hero');
+    });
+    document.getElementById('cta-demo').addEventListener('click', (e) => {
+      e.preventDefault(); openWAAndTrack('Demo');
+    });
+    document.getElementById('cta-final').addEventListener('click', (e) => {
+      e.preventDefault(); openWAAndTrack('Footer');
+    });
+
+    // ---------- Demo do chat (mensagens simuladas) ----------
+    const chatBody = document.getElementById('chat-body');
+    const input = document.getElementById('demo-input');
+    const sendBtn = document.getElementById('demo-send');
+
+    const delay = (ms) => new Promise(r => setTimeout(r, ms));
+    const addMsg = (text, who = 'bot') => {
+      const wrap = document.createElement('div');
+      wrap.className = `msg ${who}`;
+      wrap.innerHTML = `<p>${text}</p>`;
+      chatBody.appendChild(wrap);
+      chatBody.scrollTop = chatBody.scrollHeight;
+    };
+
+    async function typeBot(text) {
+      const wrap = document.createElement('div');
+      wrap.className = 'msg bot typing';
+      const p = document.createElement('p');
+      wrap.appendChild(p);
+      chatBody.appendChild(wrap);
+      for (let i = 0; i < text.length; i++) {
+        p.textContent = text.slice(0, i + 1);
+        chatBody.scrollTop = chatBody.scrollHeight;
+        await delay(10 + Math.random()*10);
+      }
+      wrap.classList.remove('typing');
+    }
+
+    async function bootDemo() {
+      await delay(400);
+      await typeBot("Olá! Eu sou o ConversIA 👋 Posso ajudar com atendimento automático no WhatsApp, Instagram e site.");
+      await delay(300);
+      await typeBot("Quer ver como funciona? Diga qual é o seu segmento (ex.: clínica, loja, curso) ou clique em “Testar agora”.");
+    }
+    bootDemo();
+
+    function respond(user) {
+      const u = user.toLowerCase();
+      if (u.includes('clínic') || u.includes('clinica') || u.includes('consultório')) {
+        return "Para clínicas, posso confirmar horários, enviar preparo, lembrar consultas e captar novos pacientes via WhatsApp.";
+      }
+      if (u.includes('loja') || u.includes('ecommerce') || u.includes('venda')) {
+        return "Para lojas, eu respondo dúvidas, envio link de pagamento e recupero carrinhos. Quer testar no seu WhatsApp?";
+      }
+      if (u.includes('curso') || u.includes('aula') || u.includes('aluno')) {
+        return "Para cursos, eu tiro dúvidas, envio materiais e qualifico leads. Posso te mostrar um fluxo em 2 minutos.";
+      }
+      return "Perfeito! Em poucos minutos eu capto o lead, respondo com tom humano e levo para o seu próximo passo (link, agenda ou pagamento).";
+    }
+
+    sendBtn.addEventListener('click', () => {
+      const val = input.value.trim();
+      if (!val) return;
+      addMsg(val, 'user');
+      input.value = '';
+      setTimeout(async () => {
+        await typeBot(respond(val));
+        await delay(300);
+        await typeBot("Clique em “Testar agora” para ver no WhatsApp. 😉");
+      }, 400);
+    });
+
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') sendBtn.click();
+    });
+
+    // ano no rodapé
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
