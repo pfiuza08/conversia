@@ -7,7 +7,7 @@
  *  - 'Lead' é disparado no clique dos CTAs (via index.html)
  */
 (function(){
-  var PIXEL_ID = "1240394014783181"; // <-- TROQUE AQUI
+  var PIXEL_ID = "3929736470503988"; // <-- TROQUE AQUI
 
   // Meta Pixel base
   !function(f,b,e,v,n,t,s){
@@ -40,3 +40,4 @@
   nos.innerHTML = '<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id='+PIXEL_ID+'&ev=PageView&noscript=1"/>';
   document.body.appendChild(nos);
 })();
+
